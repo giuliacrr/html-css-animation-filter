@@ -1,5 +1,5 @@
 
-/*Ex 1*/
+/*Esercizio 1*/
 .ex-1-square {
     width: 100px;
     height: 100px;
@@ -10,7 +10,7 @@
     background-color:red;
 }
 
-
+/*Esercizio 2*/
 .ex-2-square {
     width: 100px;
     height: 100px;
@@ -21,7 +21,7 @@
     width:100%;
 }
 
-
+/*Esercizio 3*/
 .ex-3-square {
     width: 100px;
     height: 100px;
@@ -32,7 +32,7 @@
     border-radius: 100%;
 }
 
-
+/*Esercizio 4*/
 .ex-4-square {
     width: 100px;
     height: 100px;
@@ -43,7 +43,7 @@
     background-color: transparent;
 }
 
-
+/*Esercizio 5*/
 .ex-5-square {
     margin: 20px;
     width: 60px;
@@ -58,10 +58,7 @@
     scale: 0.5;
 }
 
-
-
-
-
+/*Esercizio 6-7-8*/
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
@@ -77,6 +74,7 @@
     filter: sepia(0.5) grayscale(0.5);
     }
 
+/*Esercizio 9*/
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
@@ -88,6 +86,7 @@
     filter: sepia(0.5) grayscale(0.5);
 }
 
+/*Esercizio 10*/
 .ex-10-icon {
     font-size: 60px;
     animation: rotating-icon 1s linear infinite;
@@ -101,6 +100,7 @@
     }
 }
 
+/*Esercizio 11*/
 .ex-11-icon {
     font-size: 60px;
 }
@@ -114,12 +114,9 @@
     90% {
         transform: rotate(290deg)
     }
-    100% {
-        transform: rotate(0deg)
-    }
 }
 
-
+/*Esercizio 12-13*/
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -149,3 +146,30 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: twelve-top 2s linear;
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: twelve-bot 2s linear;
+}
+@keyframes twelve-top {
+    0% {
+        top:-10px;
+        left:10%;
+    }
+    50% {
+        top:-10px;
+        left:65%;
+    }
+}
+@keyframes twelve-bot {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: 65%;
+    }
+}
+
+
